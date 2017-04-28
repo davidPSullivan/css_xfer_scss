@@ -1,408 +1,4 @@
-/*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
-/**
- * 1. Change the default font family in all browsers (opinionated).
- * 2. Correct the line height in all browsers.
- * 3. Prevent adjustments of font size after orientation changes in
- *    IE on Windows Phone and in iOS.
- */
-/* Document
-   ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
-html {
-  font-family: sans-serif;
-  /* 1 */
-  line-height: 1.15;
-  /* 2 */
-  -ms-text-size-adjust: 100%;
-  /* 3 */
-  -webkit-text-size-adjust: 100%;
-  /* 3 */ }
-
-/* Sections
-   ========================================================================== */
-/**
- * Remove the margin in all browsers (opinionated).
- */
-body {
-  margin: 0; }
-
-/**
- * Add the correct display in IE 9-.
- */
-article,
-aside,
-footer,
-header,
-nav,
-section {
-  display: block; }
-
-/**
- * Correct the font size and margin on `h1` elements within `section` and
- * `article` contexts in Chrome, Firefox, and Safari.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
-
-/* Grouping content
-   ========================================================================== */
-/**
- * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
- */
-figcaption,
-figure,
-main {
-  /* 1 */
-  display: block; }
-
-/**
- * Add the correct margin in IE 8.
- */
-figure {
-  margin: 1em 40px; }
-
-/**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
-hr {
-  box-sizing: content-box;
-  /* 1 */
-  height: 0;
-  /* 1 */
-  overflow: visible;
-  /* 2 */ }
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */ }
-
-/* Text-level semantics
-   ========================================================================== */
-/**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */
-a {
-  background-color: transparent;
-  /* 1 */
-  -webkit-text-decoration-skip: objects;
-  /* 2 */ }
-
-/**
- * Remove the outline on focused links when they are also active or hovered
- * in all browsers (opinionated).
- */
-a:active,
-a:hover {
-  outline-width: 0; }
-
-/**
- * 1. Remove the bottom border in Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
-abbr[title] {
-  border-bottom: none;
-  /* 1 */
-  text-decoration: underline;
-  /* 2 */
-  text-decoration: underline dotted;
-  /* 2 */ }
-
-/**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
- */
-b,
-strong {
-  font-weight: inherit; }
-
-/**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
-b,
-strong {
-  font-weight: bolder; }
-
-/**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
-code,
-kbd,
-samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */ }
-
-/**
- * Add the correct font style in Android 4.3-.
- */
-dfn {
-  font-style: italic; }
-
-/**
- * Add the correct background and color in IE 9-.
- */
-mark {
-  background-color: #ff0;
-  color: #000; }
-
-/**
- * Add the correct font size in all browsers.
- */
-small {
-  font-size: 80%; }
-
-/**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline; }
-
-sub {
-  bottom: -0.25em; }
-
-sup {
-  top: -0.5em; }
-
-/* Embedded content
-   ========================================================================== */
-/**
- * Add the correct display in IE 9-.
- */
-audio,
-video {
-  display: inline-block; }
-
-/**
- * Add the correct display in iOS 4-7.
- */
-audio:not([controls]) {
-  display: none;
-  height: 0; }
-
-/**
- * Remove the border on images inside links in IE 10-.
- */
-img {
-  border-style: none; }
-
-/**
- * Hide the overflow in IE.
- */
-svg:not(:root) {
-  overflow: hidden; }
-
-/* Forms
-   ========================================================================== */
-/**
- * 1. Change the font styles in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
- */
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: sans-serif;
-  /* 1 */
-  font-size: 100%;
-  /* 1 */
-  line-height: 1.15;
-  /* 1 */
-  margin: 0;
-  /* 2 */ }
-
-/**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
-button,
-input {
-  /* 1 */
-  overflow: visible; }
-
-/**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
-button,
-select {
-  /* 1 */
-  text-transform: none; }
-
-/**
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
- */
-button,
-html [type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-  /* 2 */ }
-
-/**
- * Remove the inner border and padding in Firefox.
- */
-button::-moz-focus-inner,
-[type="button"]::-moz-focus-inner,
-[type="reset"]::-moz-focus-inner,
-[type="submit"]::-moz-focus-inner {
-  border-style: none;
-  padding: 0; }
-
-/**
- * Restore the focus styles unset by the previous rule.
- */
-button:-moz-focusring,
-[type="button"]:-moz-focusring,
-[type="reset"]:-moz-focusring,
-[type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
-
-/**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
-
-/**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
-legend {
-  box-sizing: border-box;
-  /* 1 */
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  padding: 0;
-  /* 3 */
-  white-space: normal;
-  /* 1 */ }
-
-/**
- * 1. Add the correct display in IE 9-.
- * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
-progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */ }
-
-/**
- * Remove the default vertical scrollbar in IE.
- */
-textarea {
-  overflow: auto; }
-
-/**
- * 1. Add the correct box sizing in IE 10-.
- * 2. Remove the padding in IE 10-.
- */
-[type="checkbox"],
-[type="radio"] {
-  box-sizing: border-box;
-  /* 1 */
-  padding: 0;
-  /* 2 */ }
-
-/**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
-  height: auto; }
-
-/**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */ }
-
-/**
- * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
- */
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
-
-/**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */ }
-
-/* Interactive
-   ========================================================================== */
-/*
- * Add the correct display in IE 9-.
- * 1. Add the correct display in Edge, IE, and Firefox.
- */
-details,
-menu {
-  display: block; }
-
-/*
- * Add the correct display in all browsers.
- */
-summary {
-  display: list-item; }
-
-/* Scripting
-   ========================================================================== */
-/**
- * Add the correct display in IE 9-.
- */
-canvas {
-  display: inline-block; }
-
-/**
- * Add the correct display in IE.
- */
-template {
-  display: none; }
-
-/* Hidden
-   ========================================================================== */
-/**
- * Add the correct display in IE 10-.
- */
-[hidden] {
-  display: none; }
-
+/*** Global Imports ***/
 /*Oh you know this one...*/
 /*buttons*/
 /*Hover state*/
@@ -410,53 +6,7 @@ template {
 /*Not entierly sure what this is tho...*/
 /*Ooo this one is for the Hobbies buttons! I'm color blind so I might be wrong...*/
 /*Text under hobbies*/
-footer {
-  padding: 1em 1em;
-  margin: 20px auto;
-  font-size: 1.2em;
-  max-width: 95%;
-  border-top: 1px solid #3a3a3a; }
-
-footer span {
-  float: left; }
-
-footer a {
-  float: right; }
-
-footer li {
-  display: none; }
-  @media (max-width: 768px) {
-    footer li footer li {
-      display: inline-block;
-      float: left;
-      padding: 0 10px;
-      text-transform: capitalize; } }
-
-@media (max-width: 768px) {
-  .detailed-footer-bar {
-    float: right; } }
-
-@media (max-width: 768px) {
-  .simple-footer-bar a {
-    display: none; } }
-
-.clearfix::after {
-  content: " ";
-  display: table;
-  clear: both; }
-
-.skill-list li, .hobbies-list li {
-  border-radius: 6px; }
-
-ul, .main-description, .main-content, .contact table {
-  margin: 0 auto; }
-
-.main-content, .final-content {
-  padding: 10px 20px; }
-
-/* ------------------------------------
-  Base Element Styles
------------------------------------- */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
 * {
   box-sizing: border-box; }
 
@@ -471,7 +21,7 @@ body {
 h1 {
   padding: 0;
   margin: 0;
-  font-size: 1.5em; }
+  font-size: 2.5em; }
 
 h1,
 nav,
@@ -503,7 +53,7 @@ img {
   max-width: 90%;
   text-align: center;
   padding: 10px 15px;
-  background-color: #fafafa;
+  background-color: #fff;
   margin: 5px auto; }
 
 .name {
@@ -517,15 +67,68 @@ img {
 .main-nav a:hover {
   color: #e67670; }
 
+/* ---- nav ---- */
 nav {
   margin-bottom: 15px; }
 
-/* ---- Header ---- */
+/*---- New Decorations/Items -----*/
+@media (min-width: 768px) {
+  .name a {
+    background-color: inherit; } }
+@media (min-width: 1024px) {
+  .name a {
+    float: left; } }
+
+@media (min-width: 1024px) {
+  .top-navigation {
+    float: right; } }
+
+@media (min-width: 768px) {
+  .main-nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 15px;
+    background-color: inherit; } }
+
+@media (min-width: 768px) {
+  .main-nav ul {
+    margin: 0 auto;
+    text-align: center; } }
+
+@media (min-width: 1024px) {
+  .nav {
+    max-width: 100%; } }
+
+.clearfix::after {
+  content: " ";
+  display: table;
+  clear: both; }
+
+.skill-list li, .hobbies-list li {
+  border-radius: 6px; }
+
+ul, .main-description, .main-content, .contact table {
+  margin: 0 auto; }
+
+.main-content, .final-content {
+  padding: 10px 20px; }
+
 .main-description {
   text-align: center;
   padding: 0 15px; }
+  @media (min-width: 768px) {
+    .main-description {
+      max-width: 95%; } }
 
-/* ---- Layout containers ---- */
+@media (min-width: 768px) {
+  .wrapper {
+    max-width: 95%;
+    margin: 0 auto; } }
+@media (min-width: 1024px) {
+  .wrapper {
+    max-width: 1024px;
+    margin: 20px auto; } }
+
 h2 {
   padding-bottom: 10px;
   text-transform: uppercase;
@@ -534,7 +137,12 @@ h2 {
 
 .main-content {
   text-align: center;
-  background-color: #fafafa; }
+  background-color: #fff; }
+  @media (min-width: 1024px) {
+    .main-content {
+      margin: 0 auto;
+      background-color: #fff;
+      max-width: 100%; } }
 
 .container h3 {
   font-size: 1.4em;
@@ -546,7 +154,7 @@ h2 {
 .final-content {
   text-align: center;
   margin: 10px auto;
-  background-color: #fafafa; }
+  background-color: #fff; }
 
 .skill-list li {
   display: inline-block;
@@ -562,6 +170,8 @@ h2 {
   color: white;
   margin: 6px; }
 
+/*---- New Decorations/Items -----*/
+/* ---- containers ---- */
 .contact {
   text-align: center;
   padding: 10px 15px;
@@ -571,7 +181,94 @@ h2 {
   padding-left: 15px;
   text-align: left; }
 
-/* ---- Footer ---- */
+@media (min-width: 768px) {
+  .main-description {
+    max-width: 95%; } }
+@media (min-width: 1024px) {
+  .main-description {
+    max-width: 100%;
+    padding: 30px;
+    margin-bottom: 30px; } }
+
+@media (min-width: 768px) {
+  .profile-picture {
+    max-width: 50%;
+    float: right;
+    margin: 0 auto;
+    padding: 0; } }
+
+@media (min-width: 768px) {
+  .description-text {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 1em;
+    float: left;
+    font-size: 1.2em;
+    text-align: left; } }
+@media (min-width: 1024px) {
+  .description-text {
+    font-size: 1.3em;
+    padding-left: 0; } }
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 50%;
+    float: left;
+    padding: 10px; } }
+@media (min-width: 1024px) {
+  .container {
+    max-width: 33.333%;
+    float: left; } }
+
+@media (min-width: 768px) {
+  #travel-app-container {
+    clear: left; } }
+@media (min-width: 1024px) {
+  #travel-app-container {
+    clear: none; } }
+
+/* ---- skills ---- */
+@media (min-width: 768px) {
+  .skills-image {
+    max-width: 60%;
+    margin: auto;
+    float: left; } }
+
+@media (min-width: 768px) {
+  .skill-list ul {
+    max-width: 40%;
+    margin-top: 3em;
+    padding-left: 10px;
+    float: right; } }
+
+/* ---- Hobbies ---- */
+@media (min-width: 768px) {
+  .hobbies-image {
+    max-width: 60%;
+    margin: auto;
+    float: right; } }
+
+@media (min-width: 768px) {
+  .hobbies-list ul {
+    max-width: 40%;
+    margin-top: 3em;
+    padding-left: 10px;
+    float: left; } }
+
+@media (min-width: 768px) {
+  .hobbie-text {
+    font-size: 1.2em;
+    margin-top: 1em;
+    float: right;
+    justify-content: space-around;
+    color: darkgoldenrod;
+    font-weight: bold; } }
+
+@media (min-width: 768px) {
+  .contact {
+    max-width: 70%;
+    margin-bottom: 40px; } }
+
 footer {
   padding: 1em 1em;
   margin: 20px auto;
@@ -587,151 +284,26 @@ footer a {
 
 footer li {
   display: none; }
+  @media (min-width: 768px) {
+    footer li {
+      display: inline-block;
+      float: left;
+      padding: 0 10px;
+      text-transform: capitalize; } }
+
+/*---- New Items -----*/
+@media (min-width: 768px) {
+  .detailed-footer-bar {
+    float: right; } }
+
+@media (min-width: 768px) {
+  .simple-footer-bar a {
+    display: none; } }
 
 /* ---- Float clearfix ---- */
 .clearfix::after {
   content: " ";
   display: table;
   clear: both; }
-
-/* ------------------------------------
-  Media querie @768
------------------------------------- */
-@media (min-width: 768px) {
-  /* ---- main ---- */
-  .wrapper {
-    max-width: 95%;
-    margin: 0 auto; }
-
-  /* ---- nav ---- */
-  .name a {
-    background-color: inherit; }
-
-  .main-nav li {
-    display: inline-block;
-    text-align: center;
-    padding: 10px 15px;
-    background-color: inherit; }
-
-  .main-nav ul {
-    margin: 0 auto;
-    text-align: center; }
-
-  /* ---- description ---- */
-  .main-description {
-    max-width: 95%; }
-
-  .profile-picture {
-    max-width: 50%;
-    float: right;
-    margin: 0 auto;
-    padding: 0; }
-
-  .description-text {
-    max-width: 50%;
-    margin: 0 auto;
-    padding: 1em;
-    float: left;
-    font-size: 1.2em;
-    text-align: left; }
-
-  /* ---- containers ---- */
-  .container {
-    max-width: 50%;
-    float: left;
-    padding: 10px; }
-
-  #travel-app-container {
-    clear: left; }
-
-  /* ---- skills ---- */
-  .skills-image {
-    max-width: 60%;
-    margin: auto;
-    float: left; }
-
-  .skill-list ul {
-    max-width: 40%;
-    margin-top: 3em;
-    padding-left: 10px;
-    float: right; }
-
-  /* ---- Hobbies ---- */
-  .hobbies-image {
-    max-width: 60%;
-    margin: auto;
-    float: right; }
-
-  .hobbies-list ul {
-    max-width: 40%;
-    margin-top: 3em;
-    padding-left: 10px;
-    float: left; }
-
-  .hobbie-text {
-    font-size: 1.2em;
-    margin-top: 1em;
-    float: right;
-    justify-content: space-around;
-    color: darkgoldenrod;
-    font-weight: bold; }
-
-  .contact {
-    max-width: 70%;
-    margin-bottom: 40px; }
-
-  /* ---- Footer ---- */
-  .detailed-footer-bar {
-    float: right; }
-
-  footer li {
-    display: inline-block;
-    float: left;
-    padding: 0 10px;
-    text-transform: capitalize; }
-
-  .simple-footer-bar a {
-    display: none; } }
-/* ------------------------------------
-  Media querie @1024
------------------------------------- */
-@media (min-width: 1024px) {
-  /* ---- main ---- */
-  .wrapper {
-    max-width: 1024px;
-    margin: 20px auto; }
-
-  /* ---- navigation ---- */
-  nav {
-    max-width: 100%; }
-
-  .name a {
-    float: left; }
-
-  .top-navigation {
-    float: right; }
-
-  /* ---- description ---- */
-  .main-description {
-    max-width: 100%;
-    padding: 30px;
-    margin-bottom: 30px; }
-
-  .description-text {
-    font-size: 1.3em;
-    padding-left: 0; }
-
-  /* ---- containers ---- */
-  .main-content {
-    margin: 0 auto;
-    background-color: #fff;
-    max-width: 100%; }
-
-  .container {
-    max-width: 33.333%;
-    float: left; }
-
-  #travel-app-container {
-    clear: none; } }
 
 /*# sourceMappingURL=style.css.map */

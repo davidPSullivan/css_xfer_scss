@@ -17,5 +17,5 @@ $bold-font  : 'Open Sans Condensed', bold;
 
 // Media Query break points
 
-$brk-narrow : '(max-width: 768px)';
-$brk-wide   : '(max-width: 1024px)';
+$brk-narrow : '(min-width: 768px)';
+$brk-wide   : '(min-width: 1024px)';
