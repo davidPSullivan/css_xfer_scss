@@ -27,6 +27,7 @@ h1,
 nav,
 h2,
 footer {
+  font-size: 1rem;
   font-family: "Open Sans Condensed", bold; }
 
 a {
@@ -51,7 +52,6 @@ img {
 .main-nav li {
   display: block;
   max-width: 90%;
-  text-align: center;
   padding: 10px 15px;
   background-color: #fff;
   margin: 5px auto; }
@@ -60,7 +60,7 @@ img {
   font-size: 2em; }
 
 .main-nav li a {
-  font-size: 1.2em;
+  font-size: 1.2rem;
   color: #3a3a3a;
   text-transform: capitalize; }
 
@@ -104,6 +104,10 @@ nav {
   display: table;
   clear: both; }
 
+.name a,
+.main-nav li, .main-content, .final-content {
+  text-align: center; }
+
 .skill-list li, .hobbies-list li {
   border-radius: 6px; }
 
@@ -136,7 +140,6 @@ h2 {
   font-weight: 600; }
 
 .main-content {
-  text-align: center;
   background-color: #fff; }
   @media (min-width: 1024px) {
     .main-content {
@@ -152,7 +155,6 @@ h2 {
   padding: 5px 30px 30px; }
 
 .final-content {
-  text-align: center;
   margin: 10px auto;
   background-color: #fff; }
 
@@ -170,7 +172,6 @@ h2 {
   color: white;
   margin: 6px; }
 
-/*---- New Decorations/Items -----*/
 /* ---- containers ---- */
 .contact {
   text-align: center;
@@ -181,6 +182,7 @@ h2 {
   padding-left: 15px;
   text-align: left; }
 
+/*---- New Decorations/Items -----*/
 @media (min-width: 768px) {
   .main-description {
     max-width: 95%; } }

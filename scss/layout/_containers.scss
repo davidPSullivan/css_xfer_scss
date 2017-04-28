@@ -7,7 +7,7 @@ h2 {
 
 .main-content {
   @extend %margin-1;
-  text-align: center;
+  @extend %centered;
   background-color: $white2;
   @extend %pad-10-20;
     
@@ -28,7 +28,7 @@ h2 {
 }
 
 .final-content {
-  text-align: center;
+  @extend %centered;
   margin: 10px auto;
   background-color: $white2;
   @extend %pad-10-20;
@@ -52,8 +52,6 @@ h2 {
 }
 
 
-/*---- New Decorations/Items -----*/
-
 
 /* ---- containers ---- */
 
@@ -71,6 +69,9 @@ h2 {
 	padding-left: 15px;
 	text-align: left;
 }
+
+
+/*---- New Decorations/Items -----*/
 
     .main-description {
         @media #{$brk-narrow}{

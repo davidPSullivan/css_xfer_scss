@@ -19,6 +19,7 @@ h1,
 nav,
 h2,
 footer {
+    @include font(1rem);
 	font-family: $bold-font;
 }
 
@@ -51,7 +52,7 @@ img {
 .main-nav li {
   display: block;
   max-width: 90%;
-  text-align: center;
+  @extend %centered;
   padding: 10px 15px;
   background-color: $white2;
   margin: 5px auto;
@@ -61,7 +62,7 @@ img {
 }
 
 .main-nav li a {
-  font-size: 1.2em;
+  @include font(1.2rem);
   color: $grey;
   text-transform: capitalize;
 }
