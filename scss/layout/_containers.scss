@@ -13,7 +13,7 @@ h2 {
     
     @media #{$brk-wide} {
         margin: 0 auto;
-		background-color: #fff;
+		background-color: $white2;
 		max-width: 100%;
     }
 }
@@ -38,7 +38,7 @@ h2 {
   display: inline-block;
   padding: 5px 10px;
   background: $light-grey;
-  color: white;
+  color: $white2;
   margin: 6px;
 }
 
@@ -47,7 +47,7 @@ h2 {
   display: inline-block;
   padding: 5px 10px;
   background: $light-blue;
-  color: white;
+  color: $white2;
   margin: 6px;
 }
 
